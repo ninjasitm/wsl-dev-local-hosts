@@ -64,7 +64,7 @@ case $1 in
     ARGS="$1 $HOST";;
 esac
 
-PSH_TOOL="C:\Users\admin\Projects\dev-local-hosts.ps1"
+PSH_TOOL="ENTER_TOOL_DIRECTORY_HERE/dev-local-hosts.ps1"
 CMD="-File $PSH_TOOL $ARGS"
 echo "Executing PowerShell.exe $CMD"
 PowerShell.exe $CMD
